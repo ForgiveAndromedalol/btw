@@ -85,6 +85,31 @@ minetest.register_node("btw:yellow", {
 	drawtype = "glasslike",
 	sunlight_propagates = true,
 })
+minetest.register_node("btw:yellow_light", {
+	description = "YELLOW BLOCK",
+	tiles = {"yellowlight.png"},
+	is_ground_content = true,
+	groups = {cracky=3},
+	sounds = default.node_sound_glass_defaults(),
+	light_source = 6,
+	paramtype = "light",
+	use_texture_alpha = false,
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+})
+minetest.register_node("btw:yellow_dark", {
+	description = "YELLOW BLOCK",
+	tiles = {"yellowdark.png"},
+	is_ground_content = true,
+	groups = {cracky=3},
+	sounds = default.node_sound_glass_defaults(),
+	light_source = 6,
+	paramtype = "light",
+	use_texture_alpha = false,
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+})
+
 minetest.register_node("btw:red", {
 	description = "RED BLOCK",
 	tiles = {"red.png"},
