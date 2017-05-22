@@ -277,7 +277,7 @@ minetest.register_node("btw:green_light", {
 	drawtype = "glasslike",
 	sunlight_propagates = true,
 })
-minetest.register_node("btw:greendark", {
+minetest.register_node("btw:green_dark", {
 	description = "GREEN DARK BLOCK",
 	tiles = {"greendark.png"},
 	is_ground_content = true,
