@@ -289,6 +289,17 @@ minetest.register_node("btw:blue_dark", {
 	use_texture_alpha = false,
 	drawtype = "glasslike",
 	sunlight_propagates = true,
+minetest.register_node("btw:blue_light", {
+	description = "BLUE LIGHT BLOCK",
+	tiles = {"bluedark.png"},
+	is_ground_content = true,
+	groups = {cracky=3},
+	sounds = default.node_sound_glass_defaults(),
+	light_source = 6,
+	paramtype = "light",
+	use_texture_alpha = false,
+	drawtype = "glasslike",
+	sunlight_propagates = true,
 })
 minetest.register_node("btw:magenta", {
 	description = "MAGENTA BLOCK",
