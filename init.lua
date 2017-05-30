@@ -289,6 +289,7 @@ minetest.register_node("btw:blue_dark", {
 	use_texture_alpha = false,
 	drawtype = "glasslike",
 	sunlight_propagates = true,
+})
 minetest.register_node("btw:blue_light", {
 	description = "BLUE LIGHT BLOCK",
 	tiles = {"bluedark.png"},
